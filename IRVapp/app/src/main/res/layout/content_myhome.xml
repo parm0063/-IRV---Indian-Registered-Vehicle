@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.friendlyitsolution.meet.irvapp.Myhome"
+    tools:showIn="@layout/activity_myhome">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/backgrndshaderev">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/profile_image"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/user_icon_grey"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            app:civ_border_width="2dp"
+            app:civ_border_color="#FFF"/>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/profile_image"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:id="@+id/ivstatus"
+                android:layout_centerVertical="true"
+                android:layout_width="20sp"
+                android:layout_height="20sp"
+                android:src="@drawable/exclamation_mark" />
+
+            <TextView
+                android:id="@+id/tvname"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@+id/ivstatus"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="2dp"
+               android:layout_centerVertical="true"
+                android:text="pending"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+
+
+        </RelativeLayout>
+
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="150dp"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_marginBottom="30dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:weightSum="3"
+            android:paddingLeft="10dp"
+            android:paddingRight="5dp"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:elevation="10dp"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="10dp">
+
+                <RelativeLayout
+                    android:id="@+id/lic"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginRight="8dp">
+
+                    <ImageView
+
+                        android:id="@+id/licimg"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_above="@+id/liclab"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="15dp"
+                        android:src="@drawable/icon_licence" />
+
+                    <TextView
+                        android:id="@+id/liclab"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginBottom="15dp"
+                        android:text="Licence"
+                        android:textColor="@color/black_off"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:elevation="10dp"
+                app:cardElevation="10dp"
+                android:layout_margin="15dp"
+                android:layout_marginBottom="10dp"
+                app:cardCornerRadius="5dp"
+                android:background="@color/white">
+                <RelativeLayout
+                    android:id="@+id/rel3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginRight="8dp">
+
+                    <ImageView
+
+                        android:id="@+id/licimg2"
+                        android:layout_width="40dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_above="@+id/liclab2"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/icon_echallan" />
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:id="@+id/liclab2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginBottom="15dp"
+                        android:layout_centerHorizontal="true"
+                        android:text="E-Challan"
+                        android:textSize="15dp"
+                        android:textColor="@color/black_off" />
+
+
+                </RelativeLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:elevation="10dp"
+                android:layout_margin="15dp"
+
+                app:cardElevation="10dp"
+                android:layout_marginBottom="10dp"
+                app:cardCornerRadius="5dp"
+                android:background="@color/white">
+                <RelativeLayout
+                    android:id="@+id/traf"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginRight="8dp">
+
+                    <ImageView
+
+                        android:id="@+id/licimg5"
+                        android:layout_width="40dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_above="@+id/liclab5"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/icon_traffic" />
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:id="@+id/liclab5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginBottom="15dp"
+                        android:layout_centerHorizontal="true"
+                        android:text="Traffic Alerts"
+                        android:textSize="15dp"
+                        android:textColor="@color/black_off" />
+
+
+                </RelativeLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:weightSum="3"
+            android:paddingLeft="5dp"
+            android:paddingRight="10dp"
+            android:orientation="vertical">
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:elevation="10dp"
+                app:cardElevation="10dp"
+                android:layout_marginBottom="10dp"
+                app:cardCornerRadius="5dp"
+                android:background="@color/white">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/myrc">
+
+                    <ImageView
+                        android:id="@+id/licimg1"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_above="@+id/liclab1"
+                        android:layout_marginTop="15dp"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/icon_rcbook" />
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:id="@+id/liclab1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginBottom="15dp"
+                        android:layout_centerHorizontal="true"
+                        android:text="RC Book"
+                        android:textSize="18dp"
+                        android:textColor="@color/black_off" />
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:elevation="10dp"
+                app:cardElevation="10dp"
+                android:layout_margin="15dp"
+                android:layout_marginBottom="10dp"
+                app:cardCornerRadius="5dp"
+                android:background="@color/white">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginEnd="8dp"
+                    android:id="@+id/puc"
+                    android:layout_marginRight="8dp">
+
+                    <ImageView
+
+                        android:id="@+id/licimg3"
+                        android:layout_width="40dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_above="@+id/liclab3"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/puc" />
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:id="@+id/liclab3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginBottom="15dp"
+                        android:layout_centerHorizontal="true"
+                        android:text="P.U.C"
+                        android:textSize="15dp"
+                        android:textColor="@color/black_off" />
+
+
+                </RelativeLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:elevation="10dp"
+                app:cardElevation="10dp"
+                android:layout_margin="15dp"
+                android:layout_marginBottom="10dp"
+                app:cardCornerRadius="5dp"
+                android:background="@color/white">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginRight="8dp">
+
+                    <ImageView
+
+                        android:id="@+id/licimg6"
+                        android:layout_width="40dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_above="@+id/liclab6"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/icon_rules" />
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:id="@+id/liclab6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginBottom="15dp"
+                        android:layout_centerHorizontal="true"
+                        android:text="Rules"
+                        android:textSize="15dp"
+                        android:textColor="@color/black_off" />
+
+
+                </RelativeLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="20dp"
+    android:text="\u00a9 2018 All Right Reserved"
+    android:textColor="@color/black_off"
+    android:layout_alignParentBottom="true"
+    android:textSize="10dp"
+    android:gravity="center"/>
+</RelativeLayout>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.friendlyitsolution.meet.irv_admin.Login_Activity"
+    tools:showIn="@layout/activity_login_"
+    android:orientation="vertical"
+    android:background="@drawable/backgrndshade"
+    android:gravity="center">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textSize="45dp"
+        android:textColor="#FFFFFF"
+        android:gravity="center"/>
+
+    <com.github.florent37.materialtextfield.MaterialTextField
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        app:mtf_cardCollapsedHeight="3dp"
+        app:mtf_hasFocus="false"
+        app:mtf_image="@drawable/user_login_icon"
+        app:mtf_animationDuration="500"
+        app:mtf_labelColor="#FFFFFF"
+        app:mtf_openKeyboardOnFocus="true"
+        android:id="@+id/materialTextField11"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center">
+        <EditText
+            android:id="@+id/etadminid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Username"
+            android:inputType="text"
+            android:textColor="#333"
+            android:textColorHint="#666"
+            android:textSize="15sp" />
+
+    </com.github.florent37.materialtextfield.MaterialTextField>
+
+    <com.github.florent37.materialtextfield.MaterialTextField
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        app:mtf_cardCollapsedHeight="3dp"
+        app:mtf_hasFocus="false"
+        app:mtf_image="@drawable/lock_icon"
+        app:mtf_animationDuration="500"
+        app:mtf_labelColor="#FFFFFF"
+        app:mtf_openKeyboardOnFocus="true"
+        android:id="@+id/materialTextField12"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center">
+        <EditText
+            android:id="@+id/etadminpass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:inputType="text"
+            android:textColor="#333"
+            android:textColorHint="#666"
+            android:textSize="15sp" />
+
+    </com.github.florent37.materialtextfield.MaterialTextField>
+
+    <Button
+        android:id="@+id/lgnbtn"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:text="Login"
+        android:textColor="#12c38d"
+        android:textSize="20dp"
+        android:textAllCaps="false"
+        android:background="@drawable/rounded_btn2"
+        android:layout_gravity="center"/>
+
+
+</LinearLayout>

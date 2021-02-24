@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:focusable="true"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:clickable="true"
+    android:layout_margin="10dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/vehicalno"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="Rule"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/chassis"
+        android:text="Fine Amount"
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/vehicalno"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"/>
+
+
+    <TextView
+        android:id="@+id/cls"
+        android:text="Payment Status"
+        android:layout_below="@+id/chassis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"/>
+
+</RelativeLayout>

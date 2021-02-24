@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">IRV</string>
+    <string name="title_activity_splashscreen">Splashscreen</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_form">FormActivity</string>
+    <string name="title_activity_my__licenceinfo">My_Licenceinfo</string>
+    <string name="title_activity_qr__code">QR_Code</string>
+    <string name="title_activity_finespage">finespage</string>
+    <string name="title_activity_myhome">Myhome</string>
+    <string name="title_activity_mylogin">Mylogin</string>
+    <string name="title_activity_myallpage">Myallpage</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_profile">profile</string>
+    <string name="title_activity_myrcbook">myrcbook</string>
+    <string name="title_activity_puc">puc</string>
+</resources>

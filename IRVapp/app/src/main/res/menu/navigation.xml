@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_ewallet"
+        android:icon="@drawable/wallet_icon"
+        android:title="E-Wallet"
+        />
+
+    <item
+        android:id="@+id/navigation_echallan"
+        android:icon="@drawable/mobile_payment"
+        android:title="E-Challan" />
+
+    <item
+        android:id="@+id/navigation_towing"
+        android:icon="@drawable/tow_truck"
+        android:title="Towing" />
+
+    <item
+        android:id="@+id/navigation_alert"
+        android:icon="@drawable/alert_icon"
+        android:title="Alert" />
+
+    <item
+        android:id="@+id/navigation_knowledge"
+        android:icon="@drawable/knowledge_icon"
+        android:title="Knowledge" />
+
+</menu>

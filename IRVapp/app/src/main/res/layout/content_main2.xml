@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.friendlyitsolution.meet.irvapp.Main2Activity"
+    tools:showIn="@layout/activity_main2"
+    android:background="#12c38d"
+    android:gravity="center">
+
+
+    <TextView
+        android:id="@+id/tv21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Sign up"
+        android:textSize="45dp"
+        android:textColor="#FFFFFF"/>
+
+    <com.github.florent37.materialtextfield.MaterialTextField
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        app:mtf_cardCollapsedHeight="3dp"
+        app:mtf_hasFocus="false"
+        app:mtf_image="@drawable/user_icon"
+        app:mtf_animationDuration="500"
+        app:mtf_labelColor="#FFFFFF"
+        app:mtf_openKeyboardOnFocus="true"
+        android:id="@+id/materialTextField21"
+        android:layout_below="@+id/tv21"
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true">
+        <EditText
+            android:id="@+id/et21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Username"
+            android:inputType="text"
+            android:textColor="#333"
+            android:textColorHint="#666"
+            android:textSize="15sp" />
+
+    </com.github.florent37.materialtextfield.MaterialTextField>
+
+    <com.github.florent37.materialtextfield.MaterialTextField
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        app:mtf_animationDuration="500"
+        app:mtf_cardCollapsedHeight="3dp"
+        app:mtf_hasFocus="false"
+        app:mtf_image="@drawable/mail_icon"
+        app:mtf_labelColor="#FFFFFF"
+        app:mtf_openKeyboardOnFocus="true"
+        android:id="@+id/materialTextField22"
+        android:layout_marginTop="7dp"
+        android:layout_below="@+id/materialTextField21"
+        android:layout_alignLeft="@+id/materialTextField21"
+        android:layout_alignStart="@+id/materialTextField21">
+
+        <EditText
+            android:id="@+id/et22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:textColor="#333"
+            android:textColorHint="#666"
+            android:textSize="15sp" />
+
+    </com.github.florent37.materialtextfield.MaterialTextField>
+
+
+    <com.github.florent37.materialtextfield.MaterialTextField
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        app:mtf_animationDuration="500"
+        app:mtf_cardCollapsedHeight="3dp"
+        app:mtf_hasFocus="false"
+        app:mtf_image="@drawable/lock_icon"
+        app:mtf_labelColor="#FFFFFF"
+        app:mtf_openKeyboardOnFocus="true"
+        android:id="@+id/materialTextField23"
+        android:layout_marginTop="7dp"
+        android:layout_below="@+id/materialTextField22"
+        android:layout_alignLeft="@+id/materialTextField22"
+        android:layout_alignStart="@+id/materialTextField22">
+
+        <EditText
+            android:id="@+id/et23"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textColor="#333"
+            android:textColorHint="#666"
+            android:textSize="15sp" />
+
+    </com.github.florent37.materialtextfield.MaterialTextField>
+
+
+    <com.github.florent37.materialtextfield.MaterialTextField
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        app:mtf_animationDuration="500"
+        app:mtf_cardCollapsedHeight="3dp"
+        app:mtf_hasFocus="false"
+        app:mtf_image="@drawable/phone_icon"
+        app:mtf_labelColor="#FFFFFF"
+        app:mtf_openKeyboardOnFocus="true"
+        android:id="@+id/materialTextField24"
+        android:layout_marginTop="7dp"
+        android:layout_below="@+id/materialTextField23"
+        android:layout_alignLeft="@+id/materialTextField23"
+        android:layout_alignStart="@+id/materialTextField23">
+
+        <EditText
+            android:id="@+id/et24"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Contact Number"
+            android:inputType="phone"
+            android:textColor="#333"
+            android:textColorHint="#666"
+            android:textSize="15sp" />
+
+    </com.github.florent37.materialtextfield.MaterialTextField>
+
+
+    <Button
+        android:id="@+id/btnsignup2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/materialTextField24"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="Sign Up"
+        android:textColor="#12c38d"
+        android:textSize="20dp"
+        android:textAllCaps="false"
+        android:background="@drawable/rounded_btn2"/>
+
+
+</RelativeLayout>

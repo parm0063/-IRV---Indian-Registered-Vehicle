@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "532597955286",
+    "firebase_url": "https://irvapp-bbad0.firebaseio.com",
+    "project_id": "irvapp-bbad0",
+    "storage_bucket": "irvapp-bbad0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:532597955286:android:161c6608935f217e",
+        "android_client_info": {
+          "package_name": "com.friendlyitsolution.meet.irv_admin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "532597955286-b09c118mkupqf0k7n74kvuuukf4elpj0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.friendlyitsolution.meet.irv_admin",
+            "certificate_hash": "7b6f12effff0f0393c77106e475656c3eeb7628d"
+          }
+        },
+        {
+          "client_id": "532597955286-5k98nkurr5cjv2fuhr8l0l162fl2pk8q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCy0eNTfAlb_lhQh4lT962PHLn8vizC5Yg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "532597955286-5k98nkurr5cjv2fuhr8l0l162fl2pk8q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:532597955286:android:dd1278627789f5e3",
+        "android_client_info": {
+          "package_name": "com.friendlyitsolution.meet.irvapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "532597955286-cr19m99rt5t9c1sqqa0242lijksfv4l9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.friendlyitsolution.meet.irvapp",
+            "certificate_hash": "7b6f12effff0f0393c77106e475656c3eeb7628d"
+          }
+        },
+        {
+          "client_id": "532597955286-5k98nkurr5cjv2fuhr8l0l162fl2pk8q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCy0eNTfAlb_lhQh4lT962PHLn8vizC5Yg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "532597955286-5k98nkurr5cjv2fuhr8l0l162fl2pk8q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
